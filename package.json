@@ -4,5 +4,8 @@
   "main": "index.js",
   "scripts": {
     "commit": "gitmoji -c"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
