@@ -1,11 +1,15 @@
 {
   "name": "fundaments-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "commit": "gitmoji -c"
+    "commit": "gitmoji -c",
+    "dev": "nodemon"
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
   }
 }
